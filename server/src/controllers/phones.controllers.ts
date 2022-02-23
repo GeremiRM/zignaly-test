@@ -3,7 +3,7 @@ import data from "../data.json";
 
 const getAllPhones = (_req: Request, res: Response) => {
   try {
-    res.send(data).json(200);
+    res.status(200).send(data);
   } catch (e) {
     res.sendStatus(404);
   }
@@ -19,7 +19,7 @@ const getPhoneById = (req: Request<{ id: string }>, res: Response) => {
       throw Error;
     }
 
-    res.send(phone).status(200);
+    res.status(200).send(phone);
   } catch (e) {
     res.sendStatus(404);
   }

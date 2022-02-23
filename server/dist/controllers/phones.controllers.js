@@ -7,7 +7,7 @@ exports.getPhoneById = exports.getAllPhones = void 0;
 const data_json_1 = __importDefault(require("../data.json"));
 const getAllPhones = (_req, res) => {
     try {
-        res.send(data_json_1.default).json(200);
+        res.status(200).send(data_json_1.default);
     }
     catch (e) {
         res.sendStatus(404);
@@ -21,7 +21,7 @@ const getPhoneById = (req, res) => {
         if (!phone) {
             throw Error;
         }
-        res.send(phone).status(200);
+        res.status(200).send(phone);
     }
     catch (e) {
         res.sendStatus(404);
