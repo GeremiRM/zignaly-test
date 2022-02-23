@@ -1,50 +1,66 @@
 [
     {
-        "id": 1,
+        "id": 0,
         "model": "Google Pixel 3",
-        "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_1-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220222%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220222T212340Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1a1bdb1b4b7b57d3eb39287f5cfc405ac0182beff959c7e5a542776c5156573b",
-        "price": 799
+        "image": "https://m.media-amazon.com/images/I/61oQtjPpM-L._AC_SL1500_.jpg",
+        "available": true,
+        "price": 799,
+        "rating": 4
+    },
+    {
+        "id": 1,
+        "model": "Samsung Note 9",
+        "image": "https://m.media-amazon.com/images/I/61MgwGYt3ES._AC_SX522_.jpg",
+        "available": false,
+        "price": 999,
+        "rating": 3
     },
     {
         "id": 2,
-        "model": "Samsung Note 9",
-        "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_2-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220222%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220222T212340Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=28670fe25badcb8a269a2fdc9f6c0bb0757daccda510ae3b4b7f51433835ee0f",
-        "price": 999
+        "model": "Apple iPhone XS",
+        "image": "https://m.media-amazon.com/images/I/71xn9bCRfhL._FMwebp__.jpg",
+        "available": false,
+        "price": 999,
+        "rating": 5
     },
     {
         "id": 3,
-        "model": "Apple iPhone XS",
-        "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_3-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220222%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220222T212340Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=2de9e941a1011aaf2cdad483e27a0bd2f979d915866607dc8384d1cd6d37fb4f",
-        "price": 999
+        "model": "Samsung Galaxy S9+",
+        "image": "https://m.media-amazon.com/images/I/611upT9yR2L._AC_SX222_SY320_FMwebp_QL65_.jpg",
+        "available": true,
+        "price": 840,
+        "rating": 2
     },
     {
         "id": 4,
-        "model": "Samsung Galaxy S9+",
-        "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_4-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220222%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220222T212340Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=78bdde065496224f7b9d8f8faf35816bf48129f9f8d50cb069c70d237ac3c636",
-        "price": 840
+        "model": "Xiaomi Pocophone F1",
+        "image": "https://m.media-amazon.com/images/I/81oPj2JzHDL._AC_SL1500_.jpg",
+        "available": true,
+        "price": 300,
+        "rating": 4
     },
     {
         "id": 5,
-        "model": "Xiaomi Pocophone F1",
-        "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_5-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220222%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220222T212340Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=da83da71d3932c2cb26295c5008e8bf5eba3cd61bfd44d55fc318c11b03ac6a1",
-        "price": 300
+        "model": "Xiaomi Mi 8",
+        "image": "https://m.media-amazon.com/images/I/41vZmjZTUXS._AC_.jpg",
+        "available": true,
+        "price": 400,
+        "rating": 4
     },
     {
         "id": 6,
-        "model": "Xiaomi Mi 8",
-        "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_6-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220222%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220222T212340Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b02a1d926d07920ac7bf55d7f26388114842f1c70154bddb1818e43e71f1a65b",
-        "price": 400
+        "model": "Huawei Mate 10 Pro",
+        "image": "https://m.media-amazon.com/images/I/51uAjhBSzOL._AC_SL1000_.jpg",
+        "available": true,
+        "price": 800,
+        "rating": 3
     },
     {
         "id": 7,
-        "model": "Huawei Mate 10 Pro",
-        "image": "https://the-mobile-store.s3.amazonaws.com/img/phone_7-min.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220222%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220222T212340Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=59b517d7a894821c4fabed8cad9147206752da199743da6cd5a39146c13a0e79",
-        "price": 800
-    },
-    {
-        "id": 20,
         "model": "Samsung Galaxy A7 (2018)",
-        "image": "https://the-mobile-store.s3.amazonaws.com/img/samsunggalaxya72018.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJBQJFCTCQPALOLKQ%2F20220222%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20220222T212340Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=8ab9661b625fec21c618ed351436171d69bb5caf8a99b5f871791d95495c3c23",
-        "price": 533
+        "image": "https://m.media-amazon.com/images/I/61ZNIHIEUqL._AC_SL1500_.jpg",
+        "available": true,
+        "price": 533,
+        "rating": 1
     }
 ]

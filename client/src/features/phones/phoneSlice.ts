@@ -18,7 +18,7 @@ export const fetchData = createAsyncThunk("phones/fetchData", async () => {
   const { data } = await axios({
     method: "get",
     url: "/phones",
-    baseURL: "http://localhost:4000",
+    baseURL: "http://192.168.5.3:4000",
   });
 
   return data;
