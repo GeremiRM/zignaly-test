@@ -5,4 +5,5 @@ export interface Phone {
   available?: boolean;
   price: number;
   rating?: number;
+  description?: string;
 }

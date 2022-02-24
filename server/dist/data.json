@@ -5,7 +5,8 @@
         "image": "https://m.media-amazon.com/images/I/61oQtjPpM-L._AC_SL1500_.jpg",
         "available": true,
         "price": 799,
-        "rating": 4
+        "rating": 4,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue id nisi ut vestibulum. In interdum egestas purus vitae faucibus. Donec a commodo turpis. Maecenas pellentesque efficitur maximus. Sed ullamcorper eleifend vehicula. Suspendisse scelerisque sem nec diam vehicula ornare. Nulla."
     },
     {
         "id": 1,
@@ -13,7 +14,8 @@
         "image": "https://m.media-amazon.com/images/I/61MgwGYt3ES._AC_SX522_.jpg",
         "available": false,
         "price": 999,
-        "rating": 3
+        "rating": 3,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue id nisi ut vestibulum. In interdum egestas purus vitae faucibus. Donec a commodo turpis. Maecenas pellentesque efficitur maximus. Sed ullamcorper eleifend vehicula. Suspendisse scelerisque sem nec diam vehicula ornare. Nulla."
     },
     {
         "id": 2,
@@ -21,7 +23,8 @@
         "image": "https://m.media-amazon.com/images/I/71xn9bCRfhL._FMwebp__.jpg",
         "available": false,
         "price": 999,
-        "rating": 5
+        "rating": 5,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue id nisi ut vestibulum. In interdum egestas purus vitae faucibus. Donec a commodo turpis. Maecenas pellentesque efficitur maximus. Sed ullamcorper eleifend vehicula. Suspendisse scelerisque sem nec diam vehicula ornare. Nulla."
     },
     {
         "id": 3,
@@ -29,7 +32,8 @@
         "image": "https://m.media-amazon.com/images/I/611upT9yR2L._AC_SX222_SY320_FMwebp_QL65_.jpg",
         "available": true,
         "price": 840,
-        "rating": 2
+        "rating": 2,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue id nisi ut vestibulum. In interdum egestas purus vitae faucibus. Donec a commodo turpis. Maecenas pellentesque efficitur maximus. Sed ullamcorper eleifend vehicula. Suspendisse scelerisque sem nec diam vehicula ornare. Nulla."
     },
     {
         "id": 4,
@@ -37,7 +41,8 @@
         "image": "https://m.media-amazon.com/images/I/81oPj2JzHDL._AC_SL1500_.jpg",
         "available": true,
         "price": 300,
-        "rating": 4
+        "rating": 4,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue id nisi ut vestibulum. In interdum egestas purus vitae faucibus. Donec a commodo turpis. Maecenas pellentesque efficitur maximus. Sed ullamcorper eleifend vehicula. Suspendisse scelerisque sem nec diam vehicula ornare. Nulla."
     },
     {
         "id": 5,
@@ -45,7 +50,8 @@
         "image": "https://m.media-amazon.com/images/I/41vZmjZTUXS._AC_.jpg",
         "available": true,
         "price": 400,
-        "rating": 4
+        "rating": 4,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue id nisi ut vestibulum. In interdum egestas purus vitae faucibus. Donec a commodo turpis. Maecenas pellentesque efficitur maximus. Sed ullamcorper eleifend vehicula. Suspendisse scelerisque sem nec diam vehicula ornare. Nulla."
     },
     {
         "id": 6,
@@ -53,7 +59,8 @@
         "image": "https://m.media-amazon.com/images/I/51uAjhBSzOL._AC_SL1000_.jpg",
         "available": true,
         "price": 800,
-        "rating": 3
+        "rating": 3,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue id nisi ut vestibulum. In interdum egestas purus vitae faucibus. Donec a commodo turpis. Maecenas pellentesque efficitur maximus. Sed ullamcorper eleifend vehicula. Suspendisse scelerisque sem nec diam vehicula ornare. Nulla."
     },
     {
         "id": 7,
@@ -61,6 +68,7 @@
         "image": "https://m.media-amazon.com/images/I/61ZNIHIEUqL._AC_SL1500_.jpg",
         "available": true,
         "price": 533,
-        "rating": 1
+        "rating": 1,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue id nisi ut vestibulum. In interdum egestas purus vitae faucibus. Donec a commodo turpis. Maecenas pellentesque efficitur maximus. Sed ullamcorper eleifend vehicula. Suspendisse scelerisque sem nec diam vehicula ornare. Nulla."
     }
 ]
