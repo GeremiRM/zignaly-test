@@ -26,7 +26,7 @@ export const PhoneListContainer: React.FC = () => {
     ));
   };
 
-  if (status === "loading") return <PhoneListPlaceholder />;
+  if (status === "loading" || !data) return <PhoneListPlaceholder />;
 
   return (
     <>
@@ -36,6 +36,7 @@ export const PhoneListContainer: React.FC = () => {
         justifyContent="center"
         rowGap={["2.5rem", "5rem", "7rem"]}
         templateColumns="repeat(auto-fit, minmax(250px, 1fr))"
+        data-testid="phones"
       >
         {renderPhones()}
       </Grid>

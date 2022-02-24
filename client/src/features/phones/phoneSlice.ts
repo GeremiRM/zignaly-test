@@ -10,7 +10,7 @@ export interface PhoneState {
   status: "idle" | "loading" | "failed";
 }
 
-const initialState: PhoneState = {
+export const initialState: PhoneState = {
   data: [],
   selectedPhone: undefined,
   status: "idle",

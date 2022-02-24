@@ -43,6 +43,7 @@ export const PhoneCard: React.FC<Props> = ({ phone, handleClick }) => {
         fontFamily="Bebas Neue"
         fontSize="1.25rem"
         textAlign="center"
+        data-testid={id}
       >
         <Text fontSize="2rem" noOfLines={1}>
           {model}

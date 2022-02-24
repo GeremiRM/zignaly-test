@@ -1,4 +1,4 @@
-import { Box, Grid, Wrap, Stack } from "@chakra-ui/react";
+import { Box, Wrap, Stack } from "@chakra-ui/react";
 
 export const PhoneListPlaceholder: React.FC = () => {
   const CardPlaceholder = () => (
@@ -17,7 +17,7 @@ export const PhoneListPlaceholder: React.FC = () => {
   };
 
   return (
-    <Wrap justify="center" spacing="3rem">
+    <Wrap justify="center" spacing="3rem" data-testid="loading">
       {renderPlaceholders()}
     </Wrap>
   );
