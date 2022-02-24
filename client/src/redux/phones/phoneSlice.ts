@@ -6,13 +6,13 @@ import { Phone } from "../../types/phone";
 
 export interface PhoneState {
   data: Phone[];
-  selectedPhone: Phone | undefined;
+  phone: Phone | undefined;
   status: "idle" | "loading" | "failed";
 }
 
 export const initialState: PhoneState = {
   data: [],
-  selectedPhone: undefined,
+  phone: undefined,
   status: "idle",
 };
 
@@ -31,9 +31,7 @@ export const phoneSlice = createSlice({
   initialState,
   reducers: {
     selectPhone: (state, action: PayloadAction<number | undefined>) => {
-      state.selectedPhone = state.data.find(
-        (phone) => phone.id === action.payload
-      );
+      state.phone = state.data.find((phone) => phone.id === action.payload);
     },
   },
   extraReducers: (builder) => {

@@ -30,11 +30,15 @@ export const PhoneListContainer: React.FC = () => {
     ));
   };
 
+  // If the data is being fetched or there is no data, display placeholder
   if (status === "loading" || !data) return <PhoneListPlaceholder />;
 
   return (
     <>
+      {/* Phone Modal - Displays the extra information of a phone */}
       <PhoneDetailComponent isOpen={isOpen} onClose={onClose} onOpen={onOpen} />
+
+      {/* Phone Grid - List of all Phones */}
       <Grid
         columnGap="2rem"
         justifyContent="center"

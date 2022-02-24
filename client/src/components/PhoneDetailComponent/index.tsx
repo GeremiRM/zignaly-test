@@ -20,11 +20,11 @@ export const PhoneDetailComponent: React.FC<UseDisclosureProps> = ({
   isOpen,
   onClose,
 }) => {
-  const { selectedPhone } = useAppSelector(selectPhones);
+  const { phone } = useAppSelector(selectPhones);
 
-  if (!selectedPhone) return null;
+  if (!phone) return null;
 
-  const { model, price, available, image, description } = selectedPhone;
+  const { model, price, available, image, description } = phone;
 
   return (
     <Modal
