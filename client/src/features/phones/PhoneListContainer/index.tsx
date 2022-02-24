@@ -2,12 +2,13 @@ import { useEffect } from "react";
 import { useAppDispatch, useAppSelector } from "../../../state/hooks";
 import { fetchData, selectPhone, selectPhones } from "../phoneSlice";
 import { Grid, useDisclosure } from "@chakra-ui/react";
-import { PhoneCardComponent } from "./PhoneCardComponent";
+import { PhoneCard } from "./PhoneCard";
 import { PhoneDetailComponent } from "../PhoneDetailComponent";
+import { PhoneListPlaceholder } from "./PhoneListPlaceholder";
 
 export const PhoneListContainer: React.FC = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const { data } = useAppSelector(selectPhones);
+  const { data, status } = useAppSelector(selectPhones);
   const dispatch = useAppDispatch();
 
   const handleClick = (id: number) => {
@@ -21,13 +22,11 @@ export const PhoneListContainer: React.FC = () => {
 
   const renderPhones = () => {
     return data.map((phone) => (
-      <PhoneCardComponent
-        phone={phone}
-        key={phone.id}
-        handleClick={handleClick}
-      />
+      <PhoneCard phone={phone} key={phone.id} handleClick={handleClick} />
     ));
   };
+
+  if (status === "loading") return <PhoneListPlaceholder />;
 
   return (
     <>

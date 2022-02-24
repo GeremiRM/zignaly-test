@@ -6,7 +6,6 @@ import {
   ModalContent,
   ModalHeader,
   Image,
-  Button,
   ModalOverlay,
   UseDisclosureProps,
   ModalFooter,
@@ -19,7 +18,6 @@ import { selectPhones, selectPhone } from "../phoneSlice";
 
 export const PhoneDetailComponent: React.FC<UseDisclosureProps> = ({
   isOpen,
-  onOpen,
   onClose,
 }) => {
   const { selectedPhone } = useAppSelector(selectPhones);
