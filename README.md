@@ -24,7 +24,7 @@ Zignaly Frontend Challenge. It consisted on building a simple product catalog. I
 
 ## :sparkles: How to Run
 
-With Docker:
+With docker-compose:
 
 ```bash
   # On the root of the project
@@ -35,9 +35,11 @@ With npm:
 
 ```bash
   # ./server/
+  npm install
   npm run dev
 
   # ./client/
+  npm install
   npm run start
 ```
 
