@@ -1,5 +1,5 @@
 import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
-import phoneReducer from "../features/phones/phoneSlice";
+import phoneReducer from "./phones/phoneSlice";
 
 export const store = configureStore({
   reducer: {

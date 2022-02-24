@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
 import axios from "axios";
-import { RootState } from "../../state/store";
+import { RootState } from "../store";
 
 import { Phone } from "../../types/phone";
 

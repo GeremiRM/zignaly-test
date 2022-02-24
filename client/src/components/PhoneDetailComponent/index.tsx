@@ -11,10 +11,10 @@ import {
   ModalFooter,
 } from "@chakra-ui/react";
 import React from "react";
-import { Currency } from "../../../common/Currency";
+import { Currency } from "../common/Currency";
 
-import { useAppSelector } from "../../../state/hooks";
-import { selectPhones, selectPhone } from "../phoneSlice";
+import { useAppSelector } from "../../redux/hooks";
+import { selectPhones, selectPhone } from "../../redux/phones/phoneSlice";
 
 export const PhoneDetailComponent: React.FC<UseDisclosureProps> = ({
   isOpen,

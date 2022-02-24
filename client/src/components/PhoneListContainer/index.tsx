@@ -1,6 +1,10 @@
 import { useEffect } from "react";
-import { useAppDispatch, useAppSelector } from "../../../state/hooks";
-import { fetchData, selectPhone, selectPhones } from "../phoneSlice";
+import { useAppDispatch, useAppSelector } from "../../redux/hooks";
+import {
+  fetchData,
+  selectPhone,
+  selectPhones,
+} from "../../redux/phones/phoneSlice";
 import { Grid, useDisclosure } from "@chakra-ui/react";
 import { PhoneCard } from "./PhoneCard";
 import { PhoneDetailComponent } from "../PhoneDetailComponent";

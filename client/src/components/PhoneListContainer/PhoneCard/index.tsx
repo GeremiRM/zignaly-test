@@ -1,8 +1,8 @@
 import { Stack, Image, Box, Text } from "@chakra-ui/react";
 import { useDispatch } from "react-redux";
-import { selectPhone } from "../../phoneSlice";
-import { Currency } from "../../../../common/Currency";
-import { Phone } from "../../../../types/phone";
+import { selectPhone } from "../../../redux/phones/phoneSlice";
+import { Currency } from "../../common/Currency";
+import { Phone } from "../../../types/phone";
 
 interface Props {
   phone: Phone;

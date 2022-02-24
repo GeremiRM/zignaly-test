@@ -1,7 +1,7 @@
 import { Box, Container, Divider, Heading } from "@chakra-ui/react";
 import "@fontsource/bebas-neue";
 
-import { PhoneListContainer } from "./features/phones/PhoneListContainer";
+import { PhoneListContainer } from "./components/PhoneListContainer/";
 
 function App() {
   return (

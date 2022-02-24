@@ -3,7 +3,7 @@ import { render as rtlRender } from "@testing-library/react";
 import { configureStore } from "@reduxjs/toolkit";
 import { Provider } from "react-redux";
 // Import your own reducer
-import phoneReducer from "./features/phones/phoneSlice";
+import phoneReducer from "./redux/phones/phoneSlice";
 
 function render(
   ui: JSX.Element,
